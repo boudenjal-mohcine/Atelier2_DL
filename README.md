@@ -4,14 +4,14 @@
 The objective of this project was to explore different neural network architectures for computer vision tasks, specifically focusing on classifying the MNIST dataset. Four models were investigated: Convolutional Neural Network (CNN), Faster R-CNN, AlexNet, and Vision Transformer (ViT). Each model was trained and evaluated based on various metrics including accuracy, F1 score, training time, and prediction performance.
 
 ## Part 1: CNN vs. Faster R-CNN vs. AlexNet
-| Model   | Data Size          | Epochs | Learning Rate | Mode | Time     | Accuracy | F1 Score | Prediction "4" | Probability      |
+| Model   | Data Size          | Epochs | L.Rate        | Mode | Time     | Accuracy | F1 Score | Prediction "4" | Probability      |
 |---------|--------------------|--------|---------------|------|----------|----------|----------|-----------------------------------|-------------|
 | CNN     | All Data           | 10     | 0.001         | CPU  | 4 min    | 98.88%   | 0.99     | 9                                 | 68.73%      |
 | R-CNN   | All Data           | 3      | 0.001         | CPU  | 3 min    | 98.58%   | 0.99     | 4                                 | 95.79%      |
 | AlexNet | 500 Samples        | 3      | 0.001         | CPU  | 6 min 33s| 13.71%   | 0.05     | 7                                 | 19.03%      |
 
 ## Part 2: Vision Transformer (ViT)
-| Model | Data Size          | Epochs | Learning Rate | Mode | Time | Accuracy | F1 Score | Prediction "4"                    | Probability |
+| Model | Data Size          | Epochs | L.Rate        | Mode | Time | Accuracy | F1 Score | Prediction "4"                    | Probability |
 |-------|--------------------|--------|---------------|------|------|----------|----------|-----------------------------------|-------------|
 | ViT   | All Data           | 2      | 0.01          | CPU  | 7 min| 65.35%   | 0.63     | 1                                 | 22.90%      |
 
