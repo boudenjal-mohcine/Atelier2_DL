@@ -3,6 +3,14 @@
 ## Introduction
 The objective of this project was to explore different neural network architectures for computer vision tasks, specifically focusing on classifying the MNIST dataset. Four models were investigated: Convolutional Neural Network (CNN), Faster R-CNN, AlexNet, and Vision Transformer (ViT). Each model was trained and evaluated based on various metrics including accuracy, F1 score, training time, and prediction performance.
 
+## Image Description
+<div style="text-align:center;">
+    <img src="https://previews.123rf.com/images/moji1980/moji19801210/moji1980121000088/15691005-4-handwritten-watercolor-number-isolated-on-white-background.jpg" alt="Handwritten Watercolor Number" width="200" height="200">
+</div>
+
+The image above displays a handwritten watercolor number isolated on a white background. This image serves as an example of the type of data our models are trained to predict values for. In this project, we focus on classifying similar handwritten digits as part of the MNIST dataset, which comprises grayscale images of handwritten digits ranging from 0 to 9. The goal is to train various neural network architectures to accurately predict the numerical value depicted in such images.
+
+
 ## Part 1: CNN vs. Faster R-CNN vs. AlexNet
 | Model   | Data Size          | Epochs | L.Rate        | Mode | Time     | Accuracy | F1 Score | Prediction "4" | Probability      |
 |---------|--------------------|--------|---------------|------|----------|----------|----------|-----------------------------------|-------------|
